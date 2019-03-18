@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '5.2.0'
+gem 'rails', '5.2.2.1'
 
 # Use SCSS for stylesheets
 gem 'sass-rails'
@@ -15,7 +15,7 @@ gem 'jquery-rails'
 gem 'jquery-atwho-rails'
 
 # Use twitter bootstrap sass
-gem 'bootstrap-sass', '~> 3.2.0'
+gem 'bootstrap-sass', '3.4.1'
 gem 'autoprefixer-rails'
 gem 'font-awesome-rails'
 
@@ -29,7 +29,7 @@ group :development do
 end
 
 group :development, :test do
-  gem 'sqlite3'
+  gem 'sqlite3', '~> 1.3.6'
 end
 
 group :production do
